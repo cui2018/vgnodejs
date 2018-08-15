@@ -1,0 +1,14 @@
+{
+	"default" : {
+		"hostname" : "r-m5e1afb96f73a5a4.redis.rds.aliyuncs.com",
+		"password" : "ASDasd19981018",
+		"port" : 6379,
+		"prefix" : "VG::"
+	},
+	"wechat" : {
+		"hostname" : "r-m5e46d33484f2124.redis.rds.aliyuncs.com",
+		"password" : "ASDasd19981018",
+		"port" : 6379,
+		"prefix" : "O2::"
+	}
+}

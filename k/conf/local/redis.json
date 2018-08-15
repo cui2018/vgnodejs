@@ -1,0 +1,12 @@
+{
+	"default" : {
+		"hostname" : "127.0.0.1",
+		"port" : 6379,
+		"prefix" : "VG::"
+	},
+	"wechat" : {
+		"hostname" : "127.0.0.1",
+		"port" : 6379,
+		"prefix" : "O2::"
+	}
+}

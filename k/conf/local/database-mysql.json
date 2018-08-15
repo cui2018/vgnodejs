@@ -1,0 +1,9 @@
+{
+	"default" : {
+		"hostname" : "rm-m5enf4d2o78qyk26w2o.mysql.rds.aliyuncs.com",
+		"username" : "crxl2018",
+		"password" : "ASDasd19981018",
+		"database" : "vgame",
+		"prefix" : "vg_"
+	}
+}

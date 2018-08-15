@@ -1,0 +1,47 @@
+{
+	"suffix" : ["html","do","js","css",""],
+	"crypt" : {
+		"aes" : {
+			"cipher" : "128",
+			"mode" : "ecb",
+			"key" : "c8o060EpkW296da3",
+			"iv" : ""
+		}
+	},
+	"upload_allow" : ["jpg","png","gif","xls","xlsx","zip","mp3","mp4","swf","txt","doc","docx","sql"],
+	"upload_maxsize" : 20971520,
+	"rewriteCond" : "^/(css|images|js|upload|favicon.ico)",
+	"socket_allow" : "^http://(keboy)/",
+	"wechat" : {
+		"appid" : "wx0e0ea8f7955b1fcc",
+		"mchid" : "1490737922",
+		"secret" : "23fc85ba3b7085e12d529a42607e2ad1",
+		"key" : "23fc85ba3b7085e12d529a42607e2ad1",
+		"body" : "潮人小罗-微信支付",
+		"notify" : "https://video.edisonluorui.com/order/notify"
+	},
+	"sns" : {
+		"key" : "04ef88e020dd2ccc87221d5bd020cb31"
+	},
+	"wxapp" : {
+		"appid" : "wx578f79064bf7b7ee",
+		"mchid" : "1503496351",
+		"secret" : "58ccafd9fce624ec205629bc46a7f7f3",
+		"key" : "e9F81cJo92Dyc377CT34kN89dXz10KwV",
+		"body" : "潮人小罗-微信支付",
+		"notify" : "https://video.edisonluorui.com/order/notify",
+		"api" : {
+			"login" : "https://api.weixin.qq.com/sns/jscode2session"
+		}
+	},
+	"baidu" : {
+		"name" : "xlcr",
+		"appid" : "11170447",
+		"apikey" : "vFsCO4x33fuF5Rt0wjKpQpuf",
+		"secret" : "b1XRZ2GSw2QRASPnOnrG1Qn3GG4amgoC",
+		"api" : {
+			"token" : "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=vFsCO4x33fuF5Rt0wjKpQpuf&client_secret=b1XRZ2GSw2QRASPnOnrG1Qn3GG4amgoC",
+			"spam" : "https://aip.baidubce.com/rest/2.0/antispam/v2/spam"
+		}
+	}
+}
